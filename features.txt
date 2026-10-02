@@ -1,0 +1,12 @@
+Features:
+- Single-page responsive web application with modern Tailwind CSS and glassmorphism styling
+- Flask REST API serving GET / and GET /health system status endpoint
+- POST /analyze endpoint supporting JSON and multipart/form-data file uploads (PDF, DOCX, DOC, TXT, MD)
+- Robust skill extraction engine analyzing 60+ technical skills across Cloud, DevOps, Languages, Frameworks, and Databases
+- Contextual matching against target Job Descriptions with dynamic skill gap analysis
+- Redis caching layer with seamless fallback to thread-safe in-memory cache if Redis is unavailable
+- Interactive drag-and-drop file upload (PDF, Word, Text) with raw text editor tab switcher
+- One-click sample resumes (Full Stack, DevOps/Cloud, Data Engineer) for instant demonstration
+- Visual results dashboard with animated score gauge, categorized skill badges, and actionable AI recommendations
+- Health check polling indicator in header displaying live backend status
+- Comprehensive Pytest test suite covering index, health check, analysis, and error handling
