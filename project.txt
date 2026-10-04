@@ -1,1 +1,5 @@
+
+AI Resume Analyzer
 Resume Upload Module
+Score Dashboard Module
+
