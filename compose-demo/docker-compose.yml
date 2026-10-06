@@ -6,6 +6,8 @@
     environment:
       REDIS_HOST: redis
 
+  redis:
+    image: redis
   web:
     image: nginx
     ports:
