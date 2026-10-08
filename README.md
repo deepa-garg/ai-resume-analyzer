@@ -25,5 +25,7 @@ Jira (Plan/Sprint)
               └─► Jenkins Pipeline (Build ➔ Test ➔ Deploy)
                     └─► Docker Compose (Multi-Container Deployment)
                           └─► Nagios Core (Infrastructure Monitoring)
+#build test
+
 
 
