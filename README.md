@@ -15,6 +15,7 @@ An end-to-end DevOps mini-project demonstrating a full Agile software developmen
 - **Monitoring:** Nagios Core, NSClient++ (Windows NRPE agent)
 
 ---
+## Automated Polling Test
 
 ## 📋 DevOps Pipeline Flow
 
