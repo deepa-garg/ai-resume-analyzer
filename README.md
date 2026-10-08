@@ -26,5 +26,4 @@ Jira (Plan/Sprint)
                     └─► Docker Compose (Multi-Container Deployment)
                           └─► Nagios Core (Infrastructure Monitoring)
 
-## Build 9 Test Line
-## Testing Automated Trigger
+
