@@ -1,4 +1,4 @@
-﻿node {
+node {
     stage('Build') {
         echo 'Building the application...'
     }
