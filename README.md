@@ -1,6 +1,6 @@
 # AI Resume Analyzer — Agile & DevOps Pipeline Integration
 
-An end-to-end DevOps mini-project demonstrating a full Agile software development lifecycle, containerized multi-service deployment, automated CI/CD pipelines, and infrastructure monitoring for an **AI Resume Analyzer** application.
+An end-to-end DevOps mini-project demonstrating a full Agile software development lifecycle, containerized multi-service deployment, automated CI/CD pipelines, and infrastructure monitoring for an **AI - Resume Analyzer** application.
 
 ---
 
