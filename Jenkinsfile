@@ -1,11 +1,20 @@
-node {
-    stage('Build') {
-        echo 'Building the application...'
-    }
-    stage('Test') {
-        echo 'Testing the application...'
-    }
-    stage('Deploy') {
-        echo 'Deploying the application...'
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building the application...'
+            }
+        }
+        stage('Test') {
+            steps {
+                bat 'python -m pytest app\\tests'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying the application...'
+            }
+        }
     }
 }
