@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying the application...'
+                bat 'docker compose -f compose-demo\\docker-compose.yml up -d --build'
             }
         }
     }
